@@ -1,0 +1,182 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+
+    
+}
+
+
+
+#main-header {
+    background-color: #4931d3; 
+    color: #eeeded;
+    padding: 20px; 
+    display: flex; 
+    align-items: center; 
+
+}
+#bar {
+    background-color: black;
+    padding: 5px;
+    display: flex; 
+    
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+    
+}
+
+.container h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-weight: 100;
+    font-family: Helvetica;
+
+
+}
+
+#bkimage{
+    background-image: url('images/img3.jpg');
+    background-position: center;
+    min-height:400px;
+    text-align: center;
+    
+}
+
+
+#bkimage h1{
+    font-size: 50px;
+    line-height: 1.6em;
+    color: rgb(255, 255, 255);
+
+}
+
+body{
+    
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+.cardcontain{
+    display: flex;
+    padding-left:60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    height: 300px;
+    margin: 30px;
+    align-items: center;
+    
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.intro{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    
+    color: white;
+    top: 600px;
+}
+.intro2{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    
+    color: white;
+    top: 1200px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 300px;
+    
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+.card:hover .intro{
+    height: 80px;
+    bottom: 300px;
+
+}
+.card:hover .intro2{
+    height: 80px;
+    bottom: 300px;
+  
+
+}
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover p{
+    opacity: 0.8;
+    visibility: visible;
+    background: black;
+    margin-bottom: 50px;
+   
+}
+.card2:hover p{
+    opacity: 0.8;
+    visibility: visible;
+    background: black;
+    margin-bottom: 50px;
+   
+}
+
+.card:hover img{
+    transform: scale(0.9) rotate(-3deg);
+   
+}
+.card2:hover img{
+    transform: scale(0.9) rotate(-3deg);
+   
+}
+
+.cardcontain2{
+    display: flex;
+    padding-left:60px;
+    justify-content: center;
+    gap: 45px;
+    
+}
+
+
+.stretched-page {
+    width: 134%; /* Stretch horizontally to 67% (100% / 0.67 ≈ 134%) */
+    height: 134%; /* Stretch vertically to 67% (100% / 0.67 ≈ 134%) */
+    transform: scale(0.7463); /* Shrink back to 67% size to fit viewport (1 / 1.34 ≈ 0.7463) */
+    transform-origin: top left; /* Set the transformation origin to the top left corner */
+}
+
